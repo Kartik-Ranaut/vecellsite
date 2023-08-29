@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        label{
+            display: flex;
+            width:100px;
+            position: absolute;
+            height:100px;
+            background-color: black;
+
+        }
+          
+    
+        
+        .fst{
+            background-image: url(sun.png);
+            z-index: 1;
+            background-size: cover;
+        }
+        .snd{
+            background-image: url(tree.png);
+            z-index: -1;
+            background-size: cover;
+        }
+        .trd{
+            background-image: url(cloud.png);
+            z-index: -1;
+            background-size: cover;
+        }
+        .frth{
+            background-image: url(watering.png);
+            z-index: -1;
+            background-size: cover;
+        }
+        [type="radio"]:checked + label{
+            z-index: 10;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <input type="radio" name="image" id="fst" checked><label class="fst" for="fst"></label>
+        <input type="radio" name="image" id="snd"><label class="snd" for="snd"></label>
+        <input type="radio" name="image" id="trd"><label class="trd" for="trd"></label>
+        <input type="radio" name="image" id="frth"><label class="frth" for="frth"></label>
+
+    </div>
+</body>
+</html>

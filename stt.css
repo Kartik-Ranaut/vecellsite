@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+    position: fixed;
+    width:100%;
+    height:fit-content;
+    z-index: 20;
+    display: flex;
+    box-sizing: border-box;
+    justify-content: space-between;
+    padding:25px ;
+    padding-top:10px ;
+    padding-bottom: 0px;
+    align-items: center;
+    background-color: #fff;
+}
+.logo{
+    
+width: 70px;
+height: 70px;
+background-image: url(vclogo.jpg);
+background-size: contain;
+background-repeat: no-repeat;
+
+}
+.ig{
+    height:fit-content;
+    width: fit-content;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20PX;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 44px;
+    color: black;
+    border-radius: 30px;
+    transition: .5s;
+}
+.oratory:hover{
+   
+    color: white;
+    background-color: #56344c;
+}
+
+.web:hover{
+    color: white;
+    background-color: #56344c;
+}
+.art:hover{
+    color: white;
+    background-color: #56344c;
+}
+.photography:hover{
+    color: white;
+    background-color: #56344c;
+}
+.designing:hover{
+    color: white;
+    background-color: #56344c;
+}
+.management:hover{
+    color: white;
+    background-color: #56344c;
+}
+.content{
+    
+    padding: 5%;
+    padding-top: 0px;
+}
+h1{
+
+    color: #000;
+    font-size: 40px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.lit{
+    display: grid;
+    grid-template-rows: 1fr ;
+    grid-template-columns: 3fr 2fr;
+
+
+}
+.Domain{
+    padding-left: 30px;
+    padding-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    gap:20px;
+}
+.image{
+    width:140px;
+    height:190px;
+    background-color: brown ;
+    text-align: center;
+    padding-top: 50px;
+    transition: 1s;
+    box-sizing: border-box;
+}
+.data{
+    padding-top: 30px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}

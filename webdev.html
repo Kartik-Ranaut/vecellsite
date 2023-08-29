@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Development</title>
+    <link rel="stylesheet" href="stye.css">
+
+</head>
+<body>
+    <div class="data">
+        <h1 >WEB DEVELOPMENT</h1><br><br>
+        <p>The WebDev domain of VE Cell includes creating websites that would showcase about VE Cell.</p>
+        <p>The current 2nd year members in WebDev are:</p>
+    </div>
+    <div class="Domain">
+        
+        <div class="image " id="aseem"></div>
+        <div class="image " id="kartik"></div>
+        
+    </div>
+
+
+    <script >
+        var a= document.getElementById("aseem");
+
+        a.addEventListener("mouseover",myFunction1a);
+        function myFunction1a(){
+            a.innerHTML="Aseem Jain <br> St. No: 21153004<br> Att.:82.5%";
+        }
+        a.addEventListener("mouseout",myFunction2a)
+        function myFunction2a(){
+            a.innerHTML="";
+        }
+        
+        var k= document.getElementById("kartik");
+
+        k.addEventListener("mouseover",myFunction1k);
+        function myFunction1k(){
+            k.innerHTML="Kartik Ranaut <br> St. No: 21153004<br> Att.:90%";
+        }
+        k.addEventListener("mouseout",myFunction2k)
+        function myFunction2k(){
+            k.innerHTML="";
+        }
+
+    </script>
+    
+</body>
+</html>

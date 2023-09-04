@@ -57,24 +57,24 @@ background-repeat: no-repeat;
 
 
 .home:hover{
-    color: #207561;
+    color: #56344c;
     transform: scale(1.04);
 }
 .about:hover{
-    color: #207561;
+    color: #56344c;
     transform: scale(1.04);
 }
 .services:hover{
-    color: #207561;
+    color: #56344c;
     transform: scale(1.04);
 }
 
 .contact:hover{
-    color: #207561;
+    color: #56344c;
     transform: scale(1.04);
 }
 .teams:hover{
-    color: #207561;
+    color: #56344c;
     transform: scale(1.04);
 }
 .parallax{
@@ -307,7 +307,7 @@ p{
     height:400px;
     width:40%;
     background-color: #fbfbfc;
-    border-radius: 25px;
+    border-radius: 15px;
     border: 3px solid #56344c;
     box-shadow: 20px 24px rgb(198, 169, 169);
     transition: .8s;
@@ -385,3 +385,23 @@ input{
     background-color: #56344c;
 }
 
+.team{
+    width:100vw;
+    height:90vh;
+    background-color: #fff;
+    padding: 30px;
+}
+
+.member{
+    height:200px;
+    width: 150px;
+    border-top-left-radius:10px ;
+    border-top-right-radius:10px ;
+    border: 2px solid #56344c;
+    
+}
+.memberimage{
+    width:50px;
+    height:50px;
+    background-color: #92a276;
+}

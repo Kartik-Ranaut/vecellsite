@@ -29,7 +29,7 @@
     
 width: 70px;
 height: 70px;
-background-image: url(vclogo.jpg);
+background-image: url(vecell.jpg);
 background-size: contain;
 background-repeat: no-repeat;
 
@@ -45,7 +45,7 @@ background-repeat: no-repeat;
     padding: 10px;
     padding-left: 20px;
     padding-right: 20PX;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: "Arbutus Slab", serif;
     text-decoration: none;
     font-weight: 500;
     font-size: 20px;
@@ -55,24 +55,28 @@ background-repeat: no-repeat;
     transition: .5s;
 }
 
-.home{
-    color: white;
-    background-color: #56344c;
+
+.home:hover{
+    color: #207561;
+    transform: scale(1.04);
 }
 .about:hover{
-    color: white;
-    background-color: #56344c;
+    color: #207561;
+    transform: scale(1.04);
 }
 .services:hover{
-    color: white;
-    background-color: #56344c;
+    color: #207561;
+    transform: scale(1.04);
 }
 
 .contact:hover{
-    color: white;
-    background-color: #56344c;
+    color: #207561;
+    transform: scale(1.04);
 }
-
+.teams:hover{
+    color: #207561;
+    transform: scale(1.04);
+}
 .parallax{
     display:flex;
     align-items: center;
@@ -310,19 +314,19 @@ p{
 
 }
 .workshop:hover{
-    transform: scale(1.01);
+    transform: scale(.9);
 
 }
 .drishti:hover{
-    transform: scale(1.01);
+    transform: scale(.9);
 
 }
 .spc:hover{
-    transform: scale(1.01);
+    transform: scale(.9);
 
 }
 .shramdan:hover{
-    transform: scale(1.01);
+    transform: scale(.9);
 
 }
 

@@ -298,8 +298,10 @@ p{
     flex-wrap: wrap;
     gap:50px;
     padding-bottom: 100px;
-
-    justify-content: space-evenly;
+    box-sizing: border-box;
+    justify-content: space-between;
+    padding-left: 7rem;
+    padding-right: 7rem;
     
 }
 
@@ -340,7 +342,7 @@ p{
     box-sizing: border-box;
 }
 .hdng{
-    width:100vw;
+    width:100%;
     justify-self: center;
     display: flex;
     justify-content: center;
@@ -387,9 +389,20 @@ input{
 
 .team{
     width:100vw;
-    height:90vh;
+    height:fit-content;
     background-color: #fff;
-    padding: 30px;
+    padding-left: 7rem;
+    padding-right: 7rem;
+    padding-bottom: 7rem;
+    box-sizing: border-box;
+}
+
+.members{
+    padding-top: 5rem;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap:1rem;
 }
 
 .member{
@@ -409,7 +422,7 @@ input{
     background-color: #56344C;
     border-top-left-radius:8px ;
     border-top-right-radius:8px ;
-    transition: 1s;
+    transition: .9s;
     display: flex;
     justify-content: center;
     align-items: center;

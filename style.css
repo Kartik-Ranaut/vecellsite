@@ -23,7 +23,7 @@
     padding-top:10px ;
     padding-bottom: 0px;
     align-items: center;
-    background-color: #fff;
+    background-color:#fff;
 }
 .logo{
     
@@ -96,7 +96,7 @@ background-repeat: no-repeat;
     width: 520px;
     height: 569px;
     left: 380px;
-    top: 300px;
+    top: 580px;
     transform: translateZ(-40px) scale(5);
 }
 .sun{
@@ -104,20 +104,74 @@ background-repeat: no-repeat;
     height: 180px;
     left: 3720px;
     top: -1040px;
-    transform: translateZ(-80px) scale(9);
+    transform: translateZ(-65px) scale(9);
+    animation-name: change;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+}
+@keyframes change {
+    0%{
+        left: 7720px;
+        top: 100px;
+    }
+   /* 25%{
+        left: 3720px;
+        top: -1040px;
+   } */
+    50%{
+        left: 0px;
+    top: -1040px;
+    }
+    /* 75%{
+        left: -3720px;
+        top: -1040px;
+    } */
+    100%{
+        left: -14720px;
+    top: 100px;
+    }
 }
 .cloud{
     width: 312px;
     height: 292px;
     transform: translateZ(-70px) scale(9);
-    top:-1440px;
-    left:-2800px;
+    top:-1640px;
+    right:-6800px;
+    animation: badal1 200s infinite ;
+}
+@keyframes badal1 {
+
+    25%{
+        top:-1640px;
+        right:9800px;
+    }
+    75%{
+        top:-1640px;
+        right:-6800px;
+    }
+}
+.cloud2{
+    width: 312px;
+    height: 292px;
+    transform: translateZ(-70px) scale(9);
+    top:-1040px;
+    right:-800px;
+    animation: badal 100s infinite ;
+}
+@keyframes badal{
+    0%{top:-940px;
+    right:-6800px;}
+   
+    100%{
+        top:-940px;
+    right:9800px;
+    }
 }
 .bar2{
     width: 572px;
     height: 377px;
     left: 495px;
-    top: 220px;
+    top: 280px;
     transform: translateZ(-10px) scale(4);
 }
 .bar1{
@@ -126,7 +180,7 @@ background-repeat: no-repeat;
     
     transform: translateZ(-10px) scale(4);
     left: -340px;
-    top: 510px;
+    top: 570px;
 }
 .aboutus{
     width:100vw;

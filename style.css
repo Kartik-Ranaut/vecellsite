@@ -171,7 +171,7 @@ background-repeat: no-repeat;
     width: 572px;
     height: 377px;
     left: 495px;
-    top: 280px;
+    top: 360px;
     transform: translateZ(-10px) scale(4);
 }
 .bar1{
@@ -180,7 +180,7 @@ background-repeat: no-repeat;
     
     transform: translateZ(-10px) scale(4);
     left: -340px;
-    top: 570px;
+    top: 650px;
 }
 .aboutus{
     width:100vw;

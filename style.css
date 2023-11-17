@@ -4,7 +4,6 @@
     scroll-behavior: smooth;
 }
 .container{
-  
     width:100vw;
     height:100vh;
     overflow-x: hidden;
@@ -42,21 +41,27 @@ background-repeat: no-repeat;
 .ig{
     height:fit-content;
     width: fit-content;
-    padding: 10px;
+    padding: 5px;
     padding-left: 20px;
     padding-right: 20PX;
     font-family: "Arbutus Slab", serif;
     text-decoration: none;
     font-weight: 500;
     font-size: 20px;
+    box-sizing:content-box;
     line-height: 44px;
     color: black;
-    border-radius: 30px;
+    border-radius: 3px;
     transition: .5s;
+    border-bottom: 5px solid white;
+}
+.ig:hover{
+    color: #56344c;
+    /* transform: scale(1.04); */
+    border-bottom: 5px solid #56344C;
 }
 
-
-.home:hover{
+/* .home:hover{
     color: #56344c;
     transform: scale(1.04);
 }
@@ -76,12 +81,13 @@ background-repeat: no-repeat;
 .teams:hover{
     color: #56344c;
     transform: scale(1.04);
-}
+} */
 .parallax{
     display:flex;
+    
     align-items: center;
     justify-content: center;
-    width: 100%;
+    width: 50%;
     height: 100vh;
     position: relative;
     transform-style: preserve-3d;
